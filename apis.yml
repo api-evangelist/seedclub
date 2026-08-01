@@ -1,7 +1,30 @@
 aid: seedclub
-name: Seedclub
-description: Seedclub is a company surfaced as a portfolio company of kindred-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seedclub.png
+name: Seed Club
+description: >-
+  Seed Club is a web3 accelerator and community focused on consumer crypto,
+  helping founders build "a dramatically more interesting internet" where the
+  value created by online communities is captured by people rather than
+  platforms. It runs a cohort-based accelerator (currently SC07: Consumer
+  Crypto), a ventures/investment arm, and a portfolio program, alongside a
+  broader community of builders, creators, and token communities. Seed Club
+  operates as a community-owned organization and publishes a public Community
+  Handbook, a blog, and open-source dApp code (Farcaster frames, crowdfunding
+  smart contracts). It is a portfolio company of Kindred Ventures. Seed Club is
+  a program and community brand rather than an API provider — it exposes no
+  public developer platform, REST/GraphQL API, SDKs, or machine-readable
+  discovery surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/seedclub/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Web3
+- Crypto
+- Accelerator
+- Community
+- Venture Capital
+- Consumer Crypto
+- Farcaster
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://seedclub.xyz/
+  url: https://www.seedclub.xyz/
+- type: Documentation
+  url: https://docs.seedclub.xyz/seed-club-community-handbook
+- type: Blog
+  url: https://paragraph.xyz/@seedclubhq
+- type: GitHubOrganization
+  url: https://github.com/seedclub
+- type: X
+  url: https://twitter.com/seedclubhq
+- type: DomainSecurity
+  url: security/seedclub-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
